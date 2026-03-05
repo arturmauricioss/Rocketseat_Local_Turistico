@@ -18,7 +18,7 @@
 h1,h2,h3, .headline, p, .subtitle{
   font-family: "Open Sans", sans-serif;
 }
-h1,h2,h3,.headline{
+h1,h2,h3,.headline, li{
   font-weight: bold;
 }
 p{
@@ -36,13 +36,13 @@ h2{
 h3{
   font-size: 28px;
 }
-.headline, p, .subtitle{
+.headline, p, .subtitle, strong{
   font-size: 16px;
 }
 h1, h2, h3{
   color: var(--c-text-primary);
 }
-p, .subtitle{
+p, .subtitle, strong{
   color: var(--c-text-secondary);
 }
 .headline{
@@ -103,3 +103,17 @@ article>p:last-child{
   margin-top: 40px;
   text-align: center;
 }
+li:nth-child(1){
+  color: var(--c-accent-purple);
+}
+li:nth-child(2){
+  color: var(--c-accent-pink);
+}
+li:nth-child(3){
+  color: var(--c-accent-orange);
+}
+
+.historia>li:nth-child(-n+2){
+  color: var(--c-accent-blue);
+}
+
