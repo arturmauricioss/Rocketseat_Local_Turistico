@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --c-background-default:#F5F4F0;
+  --c-border-primary:#D9D9D9;
+  --c-text-primary:#1B1B1B;
+  --c-text-secondary:#333333;
+  --c-text-tertiary:#696969;
+  --c-text-headline:#E1624F;
+  --c-accent-blue:#0C51A7;
+  --c-accent-orange:#E95E10;
+  --c-accent-pink:#E5245E;
+  --c-accent-purple:#591B98;
+}
+h1,h2,h3, .headline, p, .subtitle{
+  font-family: "Open Sans", sans-serif;
+}
+h1,h2,h3,.headline{
+  font-weight: bold;
+}
+p{
+  font-weight: 400;
+}
+.subtitle{
+  font-weight: italic;
+}
+h1{
+  font-size: 36px;
+}
+h2{
+  font-size: 32px;
+}
+h3{
+  font-size: 28px;
+}
+.headline, p, .subtitle{
+  font-size: 16px;
+}
