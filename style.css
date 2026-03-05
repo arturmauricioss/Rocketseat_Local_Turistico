@@ -70,12 +70,19 @@ h1{
   line-height: 49px;
 }
 #apresentacao{
-  margin:40px 0;
+  margin:40px 0 0;
   padding: 4px 0;
 }
-#imagem_principal{
+img{
   width: 100%;
   border-radius: 28px;
+}
+.imagens_cortadas{
+  height: 350px;
+  object-fit: cover;
+}
+#imagem_final{
+  object-position: bottom;
 }
 .subtitle{
   margin-top: 24px;
@@ -83,4 +90,16 @@ h1{
 }
 #conteudo_secundario{
   margin:64px 0;
+}
+#conteudo_descritivo{
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+hr{
+  margin-top: 40px;
+}
+article>p:last-child{
+  margin-top: 40px;
+  text-align: center;
 }
