@@ -50,7 +50,7 @@ h3{
 h1, h2, h3{
   color: var(--c-text-primary);
 }
-p, .subtitle, strong{
+p, .subtitle, strong, footer{
   color: var(--c-text-secondary);
 }
 .headline{
@@ -153,6 +153,7 @@ footer{
   width: 14px;
   height: 12px;
   border-radius: 0;
+  color: var(--c-text-secondary);
 }
 
 @media screen and (min-width: 200px){
