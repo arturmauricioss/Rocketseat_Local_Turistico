@@ -70,6 +70,7 @@ main{
   flex-direction: column;
   justify-content: center;
   padding: 4px;
+  margin: auto;
 }
 
 #apresentacao{
