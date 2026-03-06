@@ -113,7 +113,7 @@ li:nth-child(3){
   color: var(--c-accent-orange);
 }
 
-.historia>li:nth-child(-n+2){
+.historia>li:nth-child(-n+1){
   color: var(--c-accent-blue);
 }
 
